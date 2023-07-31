@@ -143,10 +143,3 @@ start.addEventListener('click', () => {
 });
 
 untypedfield.textContent = 'スタートボタンで開始';
-
-//入力文字数をカウントする
-typedfield.addEventListener('input', function () {
-			var inputText = typed.value;
-			var wordCount = inputText.length;
-			wordCountDisplay.textContent = wordCount;
-		});
